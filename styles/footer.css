@@ -1,0 +1,26 @@
+.pie{
+  background-color: gray;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 3fr 1fr;
+  padding: 20px;
+}
+
+.company-info{
+  width: 300px;
+}
+
+.pie-img{
+  height: 200px;
+}
+
+.column-two{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.search2{
+  height: 50px;
+  width: 400px;
+}

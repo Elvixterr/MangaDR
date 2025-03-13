@@ -1,0 +1,29 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-navbar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(193, 193, 193);
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  border: solid;
+  border-width: 1px;
+}
+
+.button-section{
+  border: none;
+  background-color: rgb(193, 193, 193);
+  font-size: 25px;
+  font-weight:lighter;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

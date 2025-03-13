@@ -1,0 +1,125 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.head-container{
+  display: grid;
+  grid-template-columns: 240px 1fr 100px;
+  align-items: center;
+  background-color: gray;
+}
+
+.logo{
+  width: 200px;
+  border-radius: 10px;
+  object-fit: contain;
+  margin: 20px;
+  margin-left: 60px;
+}
+
+.search-container{
+  display: flex;
+  justify-content: end;
+  margin-right: 100px;
+}
+
+.search{
+  height: 30px;
+  width: 300px;
+}
+
+.user-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.user-picture{
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 45px;
+}
+
+.search-box{
+  width: 400px;
+  background: #fff;
+  margin: 0.1px auto 0;
+  margin-left: 650px;
+  border-radius: 5px;
+
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding:10px 20px;
+}
+
+input{
+  flex: 1;
+  height: 20px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.menu-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.menu-label {
+  margin-top: 5px;
+  cursor: pointer;
+  padding: 10px 15px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 1; /* Añadido z-index para que el menu-label esté por encima del menu-list */
+}
+
+.menu-list {
+  display: none;
+  position: absolute;
+  top: 97%; /* Ajustado para que el menu-list aparezca debajo del menu-label */
+  left: 5;
+  margin-top: 5px;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  list-style-type: none;
+  z-index: 1; /* Añadido z-index para que el menu-list esté por encima de otros elementos */
+}
+
+.menu-list li {
+padding: 10px 15px;
+}
+
+.menu-list li:hover {
+  background-color: #f1f1f1;
+}
+
+.menu-toggle:checked + .menu-label + .menu-list {
+  display: block;
+}
+
+
+
+

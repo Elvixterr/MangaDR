@@ -1,0 +1,93 @@
+.user-info{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: rgb(193, 193, 193);
+  align-items: center;
+  justify-content: center;
+}
+
+.user-infoAdmin{
+  grid-template-columns: 1fr 2fr;
+  background-color: rgb(193, 193, 193);
+  align-items: center;
+  justify-content: center;
+}
+
+.user-pic{
+  margin: 30px 30px 0 30px;
+  max-width: 1000px;
+  max-height: 500px;
+  border-radius: 10px;
+}
+
+.user-name{
+  font-size: 50px;
+}
+
+.top-manga{
+  background-color: rgb(226, 226, 226);
+  display: flex;
+  flex-direction: column;
+}
+
+.top-manga > div{
+  color: white;
+}
+
+.row-container{
+  display: flex;
+  justify-content: center;
+}
+
+.manga-preview{
+  width: 200px;
+  height: 300px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.manga{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s; 
+}
+
+.manga:hover {
+  transform: scale(1.1); 
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Estilo del popup */
+#MessageDialog {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+dialog::backdrop
+{
+  background-color: rgb(110, 110, 110);
+  opacity: 0.5;
+}
+
+.dialogMsg{
+  border: 1px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+

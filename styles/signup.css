@@ -1,0 +1,38 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2{
+  font-size: 40px;
+}
+
+input{
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+  height: 30px;
+  background-color: rgb(237, 237, 237);
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.enviar{
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  width: 420px;
+  height: 50px;
+}
+
+p{
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}

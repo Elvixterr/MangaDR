@@ -1,0 +1,35 @@
+.custom-button{
+  border-radius: 0px;
+}
+
+.custom-button2{
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.custom-button3{
+  margin: 15px;
+}
+
+.custom-form{
+  width: 500px;
+  margin-right: 20px;
+}
+
+.custom-footer{
+  text-align: center;
+  background-color: gray;
+}
+
+.custom-img{
+  width: 200px;
+  margin-top: 10px;
+}
+
+.main-navbar2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(193, 193, 193);
+}

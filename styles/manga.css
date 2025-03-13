@@ -1,0 +1,64 @@
+.genero 
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.genero1
+{
+  border: solid black;
+  border-width: 1px;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 10px;
+}
+
+th,td{
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.table{
+  background-color: rgb(106, 106, 106);
+  color: white;
+  text-align: center;
+}
+
+.addToList{
+  border: solid black;
+  border-width: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Estilo del popup */
+#MessageDialog {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+dialog::backdrop
+{
+  background-color: rgb(110, 110, 110);
+  opacity: 0.5;
+}
+
+.dialogMsg{
+  border: 1px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
