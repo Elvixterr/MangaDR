@@ -44,7 +44,7 @@ Clona el repositorio o descarga el código fuente
 
 Configura la base de datos
 
-    Importa el archivo mangadb.sql en tu servidor MySQL.
+    Importa el archivo mangadb.sql de la carpeta **MangaDR_database** en tu servidor MySQL.
     
     Asegúrate de configurar las credenciales correctas en connectDB.php.
 
